@@ -1,3 +1,7 @@
+## Modifications ##
+
+This mod has been modified by Bechill, source and license are available at http://github.com/evix1101/BetterFonts
+
 ## Minecraft TrueType/OpenType Font Support Mod ##
 
 The BetterFonts mod adds TrueType/OpenType font support for Minecraft. This mod will use the fonts installed on your system for drawing text instead of the builtin bitmap fonts that come with Minecraft. Languages such as Arabic and Hindi look much better with this mod since both require complex layout that the bitmap fonts simply can't provide. All in-game text will change to use the new fonts including GUIs, the F3 debug screen, chat, and even signs. This mod should have little or no impact on performance.
