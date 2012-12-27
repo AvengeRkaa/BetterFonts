@@ -17,10 +17,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>..
  */
 
-package net.minecraft.src.betterfonts;
+package betterfonts;
 
-import net.minecraft.src.RenderEngine;
-import net.minecraft.src.Tessellator;
+import net.minecraft.client.renderer.RenderEngine;
+import net.minecraft.client.renderer.Tessellator;
 import java.lang.ref.WeakReference;
 import java.util.WeakHashMap;
 import java.util.ArrayList;
@@ -379,9 +379,9 @@ public class StringCache
         /* Need to cache each font style combination; the digitGlyphsReady = false disabled the normal glyph substitution mechanism */
         digitGlyphsReady = false;
         digitGlyphs[Font.PLAIN] = cacheString("0123456789").glyphs;
-        digitGlyphs[Font.BOLD] = cacheString("§l0123456789").glyphs;
-        digitGlyphs[Font.ITALIC] = cacheString("§o0123456789").glyphs;
-        digitGlyphs[Font.BOLD | Font.ITALIC] = cacheString("§l§o0123456789").glyphs;
+        digitGlyphs[Font.BOLD] = cacheString("ï¿½l0123456789").glyphs;
+        digitGlyphs[Font.ITALIC] = cacheString("ï¿½o0123456789").glyphs;
+        digitGlyphs[Font.BOLD | Font.ITALIC] = cacheString("ï¿½lï¿½o0123456789").glyphs;
         digitGlyphsReady = true;
     }
 

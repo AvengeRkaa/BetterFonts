@@ -1,12 +1,12 @@
-diff --git a/src/minecraft/net/minecraft/src/FontRenderer.java b/src/minecraft/net/minecraft/src/FontRenderer.java
+diff --git a/net/minecraft/client/gui/FontRenderer.java b/net/minecraft/client/gui/FontRenderer.java
 index cfba10b..a5d851c 100644
---- a/src/minecraft/net/minecraft/src/FontRenderer.java
-+++ b/src/minecraft/net/minecraft/src/FontRenderer.java
+--- a/net/minecraft/client/gui/FontRenderer.java
++++ b/net/minecraft/client/gui/FontRenderer.java
 @@ -1,5 +1,7 @@
  package net.minecraft.src;
  
-+import net.minecraft.src.betterfonts.StringCache;
-+import net.minecraft.src.betterfonts.ConfigParser;
++import betterfonts.StringCache;
++import betterfonts.ConfigParser;
  import java.awt.image.BufferedImage;
  import java.io.IOException;
  import java.io.InputStream;

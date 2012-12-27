@@ -17,9 +17,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>..
  */
 
-package net.minecraft.src.betterfonts;
+package betterfonts;
 
-import net.minecraft.src.GLAllocation;
+import net.minecraft.client.renderer.GLAllocation;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.ArrayList;
